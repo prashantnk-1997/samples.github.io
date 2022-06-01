@@ -1,0 +1,220 @@
+<html>
+<head>
+    <title>Academic Details</title>
+    <script src="academic.js"></script>
+    <link rel="stylesheet" href="./academic.css">
+</head>
+
+<!-- <body>
+
+
+    <div class="container">
+    <h2>Academic Details</h2>
+    <div class="wapper">
+        <div class="items item1">
+    <label>Course: </label>
+    <select id="course">
+        <option value=""></option>
+        <option value="SSLC">SSLC</option>
+        <option value="PUC/DIPLOMA">PUC/DIPLOMA</option>
+        <option value="DEGREE">DEGREE</option>
+    </select>
+</div>
+    
+    <div class="items item1"></div>
+    <label>Year of Passing: </label>
+    <select id="passing">
+        <option value=""></option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+    </select>
+</div>
+    
+    <div class="items item2">
+    <label>Marks obtained:</label>
+    <input type="number" name="marks" id="marks" required="" onkeyup="per()">
+</div>
+    
+    <div class="items item3">
+    <label>Total Marks :</label>
+    <input type="number" name="total" id="total" required="" onkeyup="per()">
+</div>
+    
+    <div class="items item4">
+    <b>Total Percentage :</b>
+    <span id="result"></span>
+</div>
+    
+    <div class="items item5">
+    <b>Class Obtained :</b>
+    <span id="result2"></span>
+</div>
+
+<div class="items item6">
+
+<button type="button" onclick="back()">back</button>
+</div>
+<div class="items item7">
+<button type="button" onclick="next2()">Next</button>
+</div>
+</div>
+</div>
+
+
+
+</body> -->
+
+<body>
+    <div class="container">
+        <h2>Academic Details</h2>
+        <hr>
+        <p id="error"></p>
+        <h4>SSLC/10th CLASS </h4>
+        <div class="wapper">
+       
+        <div class="items item1"> 
+            <label>Year of Passing: </label>
+    <select id="passing">
+        <option value=""></option>
+        <option value="2018">2013</option>
+        <option value="2019">2014</option>
+        <option value="2020">2015</option>
+        <option value="2021">2016</option>
+        <option value="2022">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2022">2023</option>
+
+    </select>
+        </div>
+        <div class="items item2"> 
+            <label>University Name:</label>
+        <input type="text" name="uname" id="uname" required="">
+        </div>
+        <div class="items item3"> 
+            <label>Marks obtained:</label>
+        <input type="number" name="marks" id="marks" required="" onkeyup="per()">
+        </div>
+        <div class="items item4"> 
+            <label>Total Marks :</label>
+          <input type="number" name="total" id="total" required="" onkeyup="per()">
+        </div>
+        
+        <div class="items item5"><b>Total Percentage :</b>
+            <span id="result"></span>
+        </div>
+        <div class="items item6"><b>Class Obtained :</b>
+            <span id="result2"></span>
+        </div>
+        
+       
+
+        </div>
+        <br>
+        <hr>
+        <p id="error1"></p>
+        <h4>PUC/DIPLOMA</h4>
+
+        <div class="wapper">
+        
+            <div class="items item1"> 
+                <label>Year of Passing: </label>
+        <select id="passing1">
+            <option value=""></option>  
+            <option value="2018">2013</option>
+            <option value="2019">2014</option>
+            <option value="2020">2015</option>
+            <option value="2021">2016</option>
+            <option value="2022">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2022">2023</option>
+        </select>
+            </div>
+            <div class="items item2"> 
+                <label>University Name:</label>
+            <input type="text" name="uname" id="uname1" required="">
+            </div>
+            <div class="items item3"> 
+                <label>Marks obtained:</label>
+            <input type="number" name="marks" id="marks1" required="" onkeyup="per1()">
+            </div>
+            <div class="items item4"> 
+                <label>Total Marks :</label>
+              <input type="number" name="total" id="total1" required="" onkeyup="per1()">
+            </div>
+            
+            <div class="items item5"><b>Total Percentage :</b>
+                <span id="result1"></span>
+            </div>
+            <div class="items item6"><b>Class Obtained :</b>
+                <span id="result12"></span>
+            </div>
+        
+            
+            
+    
+            </div>
+            <br>
+            <hr>
+            <p id="error2"></p>
+            <h4>DEGREE</h4>
+
+            <div class="wapper">
+      
+        <div class="items item1"> 
+            <label>Year of Passing: </label>
+    <select id="passing2">
+        <option value=""></option>
+        <option value="2018">2013</option>
+        <option value="2019">2014</option>
+        <option value="2020">2015</option>
+        <option value="2021">2016</option>
+        <option value="2022">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2022">2023</option>
+    </select>
+        </div>
+        <div class="items item2"> 
+            <label>University Name:</label>
+        <input type="text" name="uname2" id="uname2" required="">
+        </div>
+        <div class="items item3"> 
+            <label>Marks obtained:</label>
+        <input type="number" name="marks" id="marks2" required="" onkeyup="per2()">
+        </div>
+        <div class="items item4"> 
+            <label>Total Marks :</label>
+          <input type="number" name="total" id="total2" required="" onkeyup="per2()">
+        </div>
+        
+        <div class="items item5"><b>Total Percentage :</b>
+            <span id="result21"></span>
+        </div>
+        <div class="items item6"><b>Class Obtained :</b>
+            <span id="result22"></span>
+        </div>
+        
+        <div class="items item7"> <button type="button" value="Back" name="back-btn" onclick="back()"> Back</button>
+        </div>
+        <div class="items item8"><button type="button" value="Next" name="next-btn" onclick="next2()">Next</button>
+        </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>

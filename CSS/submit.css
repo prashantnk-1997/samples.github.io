@@ -1,0 +1,72 @@
+.container{
+    background-color: white;
+    width: 800px;
+    margin: 50px auto;
+    box-shadow: 0px 3px 7px 3px rgb(0, 0,0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+.wapper{
+
+    display: grid;
+    grid-template-columns: 400px 400px;
+   
+
+}
+
+h2{
+    padding-bottom: 20px;
+    color: green;
+    text-align: center;
+}
+
+h4{
+    color: orangered;
+}
+
+
+
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9{
+margin-top: 5px;
+padding: 8px;
+padding-left: 30px;
+}
+
+input[type = text], input[type = email], input[type= date], input[type= number] {
+    padding: 8px;
+    width: 95%;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+#course, #passing, #passing1, #passing2{
+    padding: 8px;
+    width: 95%;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+button[value="SUBMIT"]{
+    background-color: rgb(8, 180, 8);
+    width: 30%;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px;
+    border: none;
+    margin-top: 20px;
+    float: right;
+}
+
+button[value="Back"]{
+    background-color: rgba(245, 6, 105);
+    width: 30%;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px;
+    border: none;
+    margin-top: 20px;
+    float: left;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./data.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div><h2>Personal Data</h2></div>
+        <br>
+        <div class="items item1"><label for="firstname" >First Name <br><input type="text" name="firstname" id="firstname" required></label></div>
+        <div class="items item2"> <label for="mname">Middle Name <br><input type="text" name="mname" id="mname" required></label></div>
+        <div class="items item3"> <label for="lname">Last Name <br><input type="text" name="lname" id="lname" required></label></div>
+        <div class="items item4"><label for="DOB">Date of Birth <br><input type="date" name="DOB" id="DOB" required></label></div>
+        <div class="items item5"><label type="option" for="Gender">Gender</label>
+            <select id="Gender">
+                <br>
+                <option value=""></option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select></div>
+        <div class="items item6"> <label for="phone">Phone No <br><input type="number" name="phone" id="phone" required></label> </div>
+        <div class="items item7"><label for="email">Email <br><input type="email" name="email" id="email" required></label></div>
+        <div class="items item8"><br><label for="PWD">Person with Disablities :
+            <input type="radio" name="PWD" id="yes" required>YES</input>
+            <input type="radio" name="PWD" id="no" required>NO </input>
+            </label> 
+        </div>
+
+        <div class="items item9"><input type="button" value="Back" name="next-btn" onclick="back()"></input></div>
+        
+        
+        <div class="items item9"><input type="button" value="Next" name="next-btn" onclick="next()"></input></div>
+        
+        
+    </div>
+
+    
+</body>
+</html>

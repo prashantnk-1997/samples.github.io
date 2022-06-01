@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>login</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+<form class="form-container">
+    <p id="error"></p>
+    <h3>LOG IN</h3>
+    <div class="form-grp">
+    <label for="username">User Name</label><br>
+    <input type="text" name="username" id="username" placeholder="Username">
+    <!-- <i class="fa fa-times u_times"></i> 
+    <i class="fa fa-check u_check"></i> -->
+    </div>
+  
+    
+    <div class="form-grp">
+    <label for="password">Password </label> <br>
+    <input type="password" name="password" id="password" placeholder="Password">
+    <!-- <i class="fa fa-times p_times"></i> 
+    <i class="fa fa-check p_check"></i> -->
+    </div>
+    <div class="form-grp">
+    <input type="button" name="login-btn" value="Login" onclick="login()"><div class="loader">
+    <p id="error2"></p> 
+</form>
+
+
+
+
+<script src="login.js"></script>
+</body>
+</html>
